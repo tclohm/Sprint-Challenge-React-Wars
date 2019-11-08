@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import EmpireJumbotron from "./components/EmpireJumbotron";
 import EmpireToast from "./components/EmpireToast";
 import EmpireActivityCard from "./components/EmpireActivityCard";
+import EmpireStreamBadge from "./components/EmpireStreamBadge";
 import { Container, Row } from "reactstrap";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -42,6 +43,7 @@ const App = () => {
       <EmpireToast show={show} toggle={toggle}/>
       <EmpireJumbotron toggle={toggle}/>
       <Container>
+        <EmpireStreamBadge/>
         <Row>
           {people.map((person, index) => {
             return (<EmpireActivityCard key={index} name={person.name} height={person.height} homeworld={person.homeworld}/>);

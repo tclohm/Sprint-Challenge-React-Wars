@@ -10,10 +10,10 @@ export default function EmpireToast(props) {
 		<div className="p-3 my-2 rounded bg-docs-transparent-grid">
       <Toast isOpen={show}>
         <ToastHeader toggle={toggle}>
-          Thank you <i class="fab fa-galactic-republic"></i>
+          Thank you <i className="fab fa-galactic-republic"></i>
         </ToastHeader>
         <ToastBody>
-          You've bought $40,000 war bonds from the Empire!
+          <i className="fas fa-money-check-alt"></i> You've bought 40,000 credits of war bonds from the Empire!
         </ToastBody>
       </Toast>
     </div>

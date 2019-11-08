@@ -25,7 +25,7 @@ export default function EmpireJumbotron(props) {
 	    <Jumbotron style={opacityZero}>
 	       <h1 className="display-4" style={opacityOne}>GALAXIAN COMERADES</h1>
 	       <p className="lead" style={opacityOne}>You can help Darth Sidious win the War against the Republic</p>
-	       <p style={opacityOne}>Defend your planet, support the Galaxy...and buy Empire War Bonds!</p>
+	       <p style={opacityOne}>Defend your planet, support the the The Trade Federation...and buy Empire War Bonds!</p>
 	       <p className="lead">
 	          <Button color="primary" onClick={toggle}>BUY</Button>
 	       </p>

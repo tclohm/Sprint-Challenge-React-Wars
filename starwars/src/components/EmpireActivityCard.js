@@ -12,7 +12,7 @@ export default function EmpireActivityCard(props) {
   useEffect( () => {
     axios.get(homeworld)
           .then( (response) => {
-            //console.log(response.data)
+            console.log(response.data)
             setHwName(response.data.name)
           })
           .catch( (error) => {

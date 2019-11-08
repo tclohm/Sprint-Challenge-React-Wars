@@ -13,7 +13,7 @@ export default function EmpireToast(props) {
           Thank you <i className="fab fa-galactic-republic"></i>
         </ToastHeader>
         <ToastBody>
-          <i className="fas fa-money-check-alt"></i> You've bought 40,000 credits of war bonds from the Empire!
+          <i className="fas fa-money-check-alt"></i> You've bought 40,000 credits worth of war bonds from the Empire!
         </ToastBody>
       </Toast>
     </div>
